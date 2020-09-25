@@ -17,6 +17,7 @@ You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.2
 - COOLER: Deepcool Castle 360ex white
 - FANS: 3xLL120 Corsair
 - CASE: Corsair iCue 465x white
+- PSU: Corsair TX650M
 
 
 ## What's Working?
@@ -35,5 +36,26 @@ You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.2
 ## What's not Working?
 - [ ] Sleep works only in Mojave and Big Sur, it doesn't in Catalina but it's a common problem
 - [ ] Jack mic (common problem with AMD Hackintosh using AppleALC kext)
-- [ ] SideCar since the lack of an iGPU
+- [ ] SideCar due to the lack of an iGPU
 - [ ] etc
+
+## Installation steps
+1. Create a macOS USB-Installer stick: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
+2. Copy the EFI folder you downloaded from this repository into the USB stcik EFI partition if you created it in macOS or into the Root of the USB Stick if you created it in Windows. 
+3. Download [Propertree](https://github.com/corpnewt/ProperTree) and use it to edit the EFI/OC/config.plist file; add your mac address into the PlatformInfo/ROM section
+4. Download and open [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS), pick the option 1 to download and update macserial then use the option 2 to select the EFI/OC/config.plist file and the option 3 to generate a SMBIOS, type iMacPro1,1 and enter.
+5. Adjust your BIOS settings according to the [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings) 
+6. Boot the USB-Stick and install macOS
+
+## Post install steps
+1. [Copy the EFI folder into the EFI partition of your macOS drive](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html#grabbing-opencore-off-the-usb) in order to boot without the USB-stick
+2. I suggest you to [create a USB Map](https://dortania.github.io/OpenCore-Post-Install/usb/) for your system and delete mine (USB-Map.kext) because it will likely cause you issue.
+3.For every issue you can refer to the [Dortania guide](https://dortania.github.io/OpenCore-Post-Install/)
+
+## Credits
+- [Dortania](https://github.com/dortania) for the Opencore Desktop Guide
+- [Acidanthera](https://github.com/acidanthera) for too many things to mention each, starting from Opencore bootloader to a lot of crucial kexts...
+- [CorpNewt](https://github.com/corpnewt) for ProperTree and GenSMBIOS scripts
+- [Trulyspinach](https://github.com/trulyspinach) for SMCAMDProcessor.kext, AMDRyzenCPUPowerManagement.kext and AMD Power Gadget app.
+
+Regards, Filippo aka fill0r4
