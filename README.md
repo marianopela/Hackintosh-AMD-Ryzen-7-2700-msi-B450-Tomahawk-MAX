@@ -3,6 +3,7 @@
 -This is the repository of my main system based on msi B450 Tomahawk MAX.
 -You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.1
 ![About This Mac](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/About%20This%20Mac.png?raw=true)
+![Setup](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/Setup.jpg?raw=true)
 
 ## Hardware
 - CPU: AMD Ryzen 7 2700
@@ -19,7 +20,7 @@
 - FANS: 3xLL120 Corsair
 - CASE: Corsair iCue 465x white
 - PSU: Corsair TX650M
-![Build]![About This Mac](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/Build.jpg?raw=true)
+![Build](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/Build.jpg?raw=true)
 
 
 ## What's Working?
@@ -43,7 +44,7 @@
 
 ## Benchmark
 -GeekBench Scores: [CPU](https://browser.geekbench.com/v5/cpu/3910230) [GPU](https://browser.geekbench.com/v5/compute/1548862)
-![Cinebench Scores]![About This Mac](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/Cinebench%20Scores.png?raw=true)
+![Cinebench Scores](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/Cinebench%20Scores.png?raw=true)
 
 ## Installation steps
 1. [Create a macOS USB-Installer stick](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
