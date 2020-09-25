@@ -57,5 +57,6 @@ You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.1
 - [Acidanthera](https://github.com/acidanthera) for too many things to mention each, starting from Opencore bootloader to a lot of crucial kexts...
 - [CorpNewt](https://github.com/corpnewt) for ProperTree and GenSMBIOS scripts
 - [Trulyspinach](https://github.com/trulyspinach) for SMCAMDProcessor.kext, AMDRyzenCPUPowerManagement.kext and AMD Power Gadget app.
+- [chris1111](https://github.com/chris1111) for the Opencore theme which I used in this EFI folder
 
 Regards, Filippo aka fill0r4
