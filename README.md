@@ -51,6 +51,7 @@ You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.1
 1. [Copy the EFI folder into the EFI partition of your macOS drive](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html#grabbing-opencore-off-the-usb) in order to boot without the USB-stick
 2. I suggest you to [create a USB Map](https://dortania.github.io/OpenCore-Post-Install/usb/) for your system and delete mine (USB-Map.kext) because it will likely cause you issue.
 3.For every issue you can refer to the [Dortania guide](https://dortania.github.io/OpenCore-Post-Install/)
+4. If you want you can [change the CPU Name](https://forum.amd-osx.com/index.php?threads/change-cpu-name-on-catalina.298/#post-1222) in About This Mac
 
 ## Credits
 - [Dortania](https://github.com/dortania) for the Opencore Desktop Guide
