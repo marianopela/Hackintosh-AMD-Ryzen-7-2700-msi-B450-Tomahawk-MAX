@@ -30,7 +30,10 @@ You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.2
 - [x] Display Port output
 - [x] HEVC and H264 Encode for RX 580
 - [x] All USB ports at full speed (including USB-C)
+- [x] etc
 
 ## What's not Working?
 - [ ] Sleep works only in Mojave and Big Sur, it doesn't in Catalina but it's a common problem
 - [ ] Jack mic (common problem with AMD Hackintosh using AppleALC kext)
+- [ ] SideCar since the lack of an iGPU
+- [ ] etc
