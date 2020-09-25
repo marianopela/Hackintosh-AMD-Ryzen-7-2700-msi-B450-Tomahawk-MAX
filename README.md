@@ -34,7 +34,7 @@ You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.1
 - [x] etc
 
 ## What's not Working?
-- [ ] Sleep works only in Mojave and Big Sur, it doesn't in Catalina but it's a common problem
+- [ ] Sleep works only in Mojave and Big Sur, it doesn't in Catalina but it's a common problem with AMD CPUs
 - [ ] Jack mic (common problem with AMD Hackintosh using AppleALC kext)
 - [ ] SideCar due to the lack of an iGPU
 - [ ] etc
