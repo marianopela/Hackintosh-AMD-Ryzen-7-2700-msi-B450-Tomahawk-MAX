@@ -50,6 +50,7 @@
 1. [Create a macOS USB-Installer stick](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
 2. Copy the EFI folder you downloaded from this repository into the USB stcik EFI partition if you created it in macOS or into the Root of the USB Stick if you created it in Windows. 
 3. Download [Propertree](https://github.com/corpnewt/ProperTree) and use it to edit the EFI/OC/config.plist file; add your mac address into the PlatformInfo/ROM section
+![PlatformInfo](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/PlatformInfo.png)
 4. Download and open [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS), pick the option 1 to download and update macserial then use the option 2 to select the EFI/OC/config.plist file and the option 3 to generate a SMBIOS, type iMacPro1,1 and enter.
 5. Adjust your BIOS settings according to the [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings) 
 6. Boot the USB-Stick and install macOS
