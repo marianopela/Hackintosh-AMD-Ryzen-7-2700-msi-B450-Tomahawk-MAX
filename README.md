@@ -1,7 +1,7 @@
 # Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX
--Hi buddys
--This is the repository of my main system based on msi B450 Tomahawk MAX.
--You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.1
+Hi buddys
+This is the repository of my main system based on msi B450 Tomahawk MAX.
+You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.1
 ![About This Mac](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/About%20This%20Mac.png?raw=true)
 ![Setup](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/Setup.jpg?raw=true)
 
