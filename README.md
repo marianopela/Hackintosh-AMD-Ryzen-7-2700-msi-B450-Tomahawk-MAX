@@ -41,7 +41,8 @@ You can find the EFI Folder in this repository, the bootloader is OpenCore 0.6.1
 
 ## More details
 ![About This Mac](Docs/About This Mac.png)
-GeekBench Scores: [CPU](https://browser.geekbench.com/v5/cpu/3910230) [GPU](https://browser.geekbench.com/v5/compute/1548862)
+
+-GeekBench Scores: [CPU](https://browser.geekbench.com/v5/cpu/3910230) [GPU](https://browser.geekbench.com/v5/compute/1548862)
 
 ## Installation steps
 1. [Create a macOS USB-Installer stick](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
