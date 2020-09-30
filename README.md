@@ -24,7 +24,7 @@
 
 
 ## What's Working?
-- [x] Tested with macOS Mojave 10.14.6, Catalina from 10.15.4 to 10.15.7 and Big Sur Beta 6
+- [x] Tested with macOS Mojave 10.14.6, Catalina from 10.15.4 to 10.15.7 and Big Sur Beta 6-7-8-9
 - [x] QE/CI Graphics Of Sapphire Radeon RX 580
 - [x] Restart and Shutdown. 
 - [x] Rear Jack (Green) + Front Speaker Jack (Headphone)
