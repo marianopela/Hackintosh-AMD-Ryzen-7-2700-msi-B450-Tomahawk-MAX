@@ -1,5 +1,5 @@
 # Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX
-- Hi buddys
+- Hi buddies
 - This is the repository of my main system based on msi B450 Tomahawk MAX.
 - From this repository you can download the EFI folder
 ![About This Mac](https://github.com/fill0r4/Hackintosh-AMD-Ryzen-7-2700-msi-B450-Tomahawk-MAX/blob/master/Docs/About%20This%20Mac.png?raw=true)
